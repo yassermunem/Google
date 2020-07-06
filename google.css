@@ -12,13 +12,14 @@ body{ font-family: sans-serif;}
     padding: 7px 13px 7px 13px;
     float: right;
     margin-right: 20px;
+    margin-left: 5px;
     background-color: #4285F4;
     outline: none;
     border: none;
     color: #FFF;
     text-align: center;
     font-weight: bold;
-    margin-left: 5px;}
+}
 
 .navbar img{float: right;margin-right: 13px;margin-top: 2px;}
 
@@ -30,7 +31,8 @@ body{ font-family: sans-serif;}
     text-align: center;
     width: 584px;}
 
-a{text-decoration: none;}
+a{text-decoration: none; 
+ color: #000;}
 
 .main input{
     height: 47px;
@@ -53,7 +55,8 @@ a{text-decoration: none;}
     border-radius:5px;
     border: 1px solid #EEE;
     outline: none;
-    font-size: 14px;}
+    font-size: 14px;
+}
 
 .main button:hover{border: 1px solid#777;}
 
@@ -66,8 +69,11 @@ footer {
     bottom: 0;
     left: 0;
     border-top: 1px solid#DDD;
-    font-size: 13px;}
+    font-size: 13px;
+}
+ul{
+    margin-top: 14px;
+}
+.left li{float: left;list-style: none;margin-left: 18px;}
 
-.left li{float: left;list-style: none;margin: 13px 0px 13px 20px;}
-
-.right li{float:right;list-style: none;margin: 13px 25px 13px 0px;text-align: center;}
+.right li{float:right;list-style: none;margin-right: 18px;}
